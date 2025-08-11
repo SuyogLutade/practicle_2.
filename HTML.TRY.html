@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+          <title>
+             application form
+          </title>
+    </head>
+    <body>
+        <h1>APLICATION FORM</h1>
+        <hr>
+        <form action=""/action_page.php
+        oninput="x.value=parseint(a.value)||0+parseint(b.value)||0">
+            <fieldset>
+                <legend>profetional info</legend>
+                <lable for="fname">First name:</lable><br>
+                <input type="text"id="fname"name="fname"><br><br>
+                 <lable for="lname">last name:</lable><br>
+                <input type="text"id="lname"name="lname"><br><br>
+               <label for="gender">gender:</label>
+               <input list="gender" name="gender">
+               <datalist id="gender">
+                <option value="male">male</option>
+                <option value="female">female</option>
+                <option value="other">other</option>
+               </datalist><br>
+               
+               enter your age<br>
+               
+               <input type="number" id="age" name="age" >
+               
+               <br>
+               enter the marks of two exams:<br>
+               <input type="number" id="a" name="a" >
+                 <input type="number" id="b" name="b" >
+                 <output name="x" for="a b"></output>
+
+            </fieldset>
+            <strong>if you had any problen during application please inform below:</strong>
+               <br><textarea name="massage"row="6" cols="20"></textarea>
+               <br>
+            <button type="submit" onclick="alert('submited succesfully')">submit</button>
+            
+        </form>
+    </body>
+</html>
+
